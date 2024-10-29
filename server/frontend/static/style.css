@@ -124,3 +124,21 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.contact_title {
+    font-weight: bold;
+    color: green;
+}
+.contact_text {
+    color: green;
+}
+
+.customer_service_image {
+    width: 200px;
+    height: 200px;
+}
+
+.banner_image {
+    width: 600px;
+    height: 435px;
+}
