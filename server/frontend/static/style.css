@@ -124,3 +124,32 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.contact-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.vertical-line {
+border-left: 3px solid ;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  margin-top: 3rem;
+
+}
+
+.customer-service-image {
+    margin-top: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.contact-body {
+   text-align: center;
+   margin-left: 10rem;
+}
