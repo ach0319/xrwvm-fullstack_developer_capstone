@@ -41,7 +41,7 @@ def login_user(request):
 # def logout_request(request):
 # ...
 
-  def logout_request(request):
+def logout_request(request):
     logout(request)
     data = {"userName": ""}
     return JsonResponse(data)
@@ -52,7 +52,7 @@ def login_user(request):
 # ...
 
 @csrf_exempt
-  def registration(request):
+def registration(request):
     context = {}
 
     data = json.loads(request.body)
