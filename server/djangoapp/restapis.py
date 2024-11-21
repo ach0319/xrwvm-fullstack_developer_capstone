@@ -84,4 +84,3 @@ def searchcars_request(endpoint, **kwargs):
         print("Network exception occurred")
     finally:
         print("GET request call complete!")
-        
